@@ -1,0 +1,16 @@
+#barra {
+    position: relative;
+    float: inherit;
+    width: 1350px;
+    height: 60px;
+    z-index: 1;
+}
+
+#logout {
+    position: absolute;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: -45px;
+    z-index: 2;
+}

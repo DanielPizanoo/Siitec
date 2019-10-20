@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+img.logo {
+    width: 300px;
+    height: 80px;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+#registrar {
+    float: left;
+    width: 80%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: right;
+}
+
+input {
+    border: none;
+    border-bottom: 3px solid #e7e7e7;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 50px;
+    padding: 0px;
+    width: 260px;
+    line-height: normal;
+    background: #fff;
+    margin-bottom: 10px;
+    cursor: text;
+    -webkit-appearance: textfield;
+    margin-left: 40%;
+}
+
+input#usuario {
+    border-bottom: 3px solid #e7e7e7;
+    letter-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+input#contrasenia {
+    border-bottom: 3px solid #e7e7e7;
+    letter-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    display: inline-block;
+}
+
+.boton {
+    background: top #c3c3c3;
+    color: #262726;
+    width: 260;
+    height: 40;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    font: 350 16px Arial;
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+.boton:active {
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+#pie {
+    color: gray;
+    left: 50%;
+    top: 50%;
+}

@@ -1,0 +1,91 @@
+#barra {
+    position: relative;
+    float: inherit;
+    width: 1350px;
+    height: 60px;
+    z-index: 1;
+}
+
+#logout {
+    position: absolute;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: -45px;
+    z-index: 2;
+}
+
+/*---------------------Estilo de boton---------------------*/
+.buscar .contenido {
+    height: 80px;
+}
+
+.contenido{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    text-align:center; 
+}
+
+.respuesta{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    text-align:center; 
+}
+
+a.boton{
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    display:inline-block;
+    margin: 15px 20%;
+    text-decoration:none;
+    color:#333;
+    padding:20px 40px;
+    border: 2px solid #333;
+    border-radius:5px;
+    position:relative;
+    overflow:hidden;
+    transition: all 0.4s;
+  -webkit-transition: all ease 400ms;
+  -moz-transition: all ease 400ms;
+  -ms-transition: all ease 400ms;
+}
+
+a.boton span{
+    display:block;
+    position:absolute;
+    background: #FFCD00;
+    transition: all ease 400ms;
+  -webkit-transition: all ease 400ms;
+  -moz-transition: all ease 400ms;
+  -ms-transition: all ease 400ms;
+    z-index:-1;
+}
+
+a.boton span.center{
+    left:50;
+    top:0;
+    right:0;
+    bottom:0;
+    width:50px;
+    height:50px;
+    border-radius:100px;
+    margin:auto;
+    transform:scale(0,0);
+    transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+    z-index:-1;
+}
+
+a.boton:hover{
+    color:#FFCD00;
+    border: 2px solid #FFCD00;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+}
+
+#main-container {
+    margin: 150px auto;
+}
+
+table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 70%;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: auto;
+}
+
+th, td {
+    border: solid 1px;
+    padding: 20px;
+}
+
+thead {
+    background-color: #23A386;
+    color: white;
+    border-bottom: solid 5px #23A386;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
